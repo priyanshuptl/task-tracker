@@ -6,14 +6,21 @@ export default {
         }
     },
     emits: ["toggle-add-task"],
-    props: ["addTaskVisible"]
+    props: ["addTaskVisible"],
+    computed: {
+        isHomeScreen() {
+            return this.$route.path === '/'
+        }
+    }
 }
 </script>
 
 <template>
     <header>
         <h1>Task Tracker</h1>
-        <button @click="$emit('toggle-add-task')">{{ addTaskVisible? 'Remove': 'Add Task' }}</button>
+        <button v-show="isHomeScreen" @click="$emit('toggle-add-task')">{{
+            addTaskVisible? 'Remove': 'Add Task'
+        }}</button>
     </header>
 </template>
 
