@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Run JSON Server
+
+```sh
+npm run start-server
+```
