@@ -1,7 +1,7 @@
 <template>
     <footer>
         <h1>Copyright @prince</h1>
-        <a href="/about">About</a>
+        <router-link to="/about">About</router-link>
     </footer>
 </template>
 

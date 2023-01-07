@@ -13,16 +13,16 @@
       "reminder": false
     },
     {
-      "id": 3,
-      "title": "Drink Juice",
-      "time": "any day 3",
-      "reminder": true
-    },
-    {
       "title": "Get JCB",
       "time": "Jan 10th",
       "reminder": true,
       "id": 4
+    },
+    {
+      "title": "Go fo jogging",
+      "time": "Everyday",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
