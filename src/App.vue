@@ -2,6 +2,7 @@
 import Header from './components/Header.vue'
 import Tasks from './components/Tasks.vue'
 import AddTask from './components/AddTask.vue'
+import Footer from './components/Footer.vue';
 </script>
 
 <script>
@@ -101,6 +102,8 @@ export default {
     <AddTask v-if="addTaskVisible" @on-submit="addTask" />
     <Tasks :tasks="tasks" @delete-task="deleteTask" @toggle-reminder="toggleReminder" />
   </main>
+
+  <Footer />
 </template>
 
 <style>

@@ -10,13 +10,19 @@
       "id": 2,
       "title": "Wash Clothes",
       "time": "any day 2",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
       "title": "Drink Juice",
       "time": "any day 3",
-      "reminder": false
+      "reminder": true
+    },
+    {
+      "title": "Get JCB",
+      "time": "Jan 10th",
+      "reminder": true,
+      "id": 4
     }
   ]
 }
